@@ -18,3 +18,5 @@ for x   in new_data:
    
 mean    =   total/n  
 print('Mean is ' + str(mean)) 
+fig = px.scatter(x = weight , y = height)
+fig.show()
