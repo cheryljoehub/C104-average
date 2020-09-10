@@ -26,4 +26,6 @@ else:
     print(n)
     
 print('The median is ' + str(median))
+fig = px.scatter(x = weight , y = height)
+fig.show()
     
