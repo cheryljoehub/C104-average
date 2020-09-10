@@ -51,6 +51,8 @@ elif len(mode2)>len(mode) and len(mode1):
     print("Mode is /are "+ ', '.join(map(str, mode2)))
 
 print(get_mode,"This is mode")
+fig = px.scatter(x = weight , y = height)
+fig.show()
         
 
      
